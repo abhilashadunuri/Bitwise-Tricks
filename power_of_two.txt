@@ -1,0 +1,12 @@
+class power_of_two
+{
+    public static void main(String[] args) 
+    {
+        int number = 16;
+        int x = number & (number - 1);
+        if(x == 0)
+            System.out.println("YES " + number + " is a power of 2");
+        else
+            System.out.println("NO it is not a power of 2");
+    }
+}

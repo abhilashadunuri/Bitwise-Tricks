@@ -1,0 +1,11 @@
+class set_bit
+{
+    public static void main(String[] args) 
+    {
+        int number = 9;  //1001 
+        // give the bit you have to set
+        int n = 2;
+        int result = number ^ (1 << 2);
+        System.out.println(result);
+    }
+}

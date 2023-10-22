@@ -1,0 +1,28 @@
+class Add_numbers_without_operators 
+{
+    public static void main(String[] args) 
+    {
+        int a = 20;
+        int b = 12;
+        while(b!=0)
+        {
+            int carry = a & b;
+            a = a ^ b;
+            b = carry << 1;
+        }
+        System.out.println(a);
+        
+        // Using loop
+        int x = -12;
+        int y = 20;
+        int z = Math.abs(y);
+        for(int index = 0; index < z; index+=1)
+        {
+            if(y<0)
+                x-=1;
+            else
+                x+=1;
+        }
+        System.out.println(x);
+    }
+}

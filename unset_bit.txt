@@ -1,0 +1,11 @@
+class unset_bit
+{
+    public static void main(String[] args) 
+    {
+        int number = 9;  //1001 
+        // give the bit you have to set
+        int n = 3;
+        int result = number & ~(1 << n);
+        System.out.println(result);
+    }
+}

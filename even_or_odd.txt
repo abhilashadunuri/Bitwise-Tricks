@@ -1,0 +1,11 @@
+class even_or_odd
+{
+    public static void main(String[] args) 
+    {
+        int number = 15;
+        if((number & 1) == 0)
+            System.out.println(number + " is an even number");
+        else
+            System.out.println(number + " is a odd number");
+    }
+}

@@ -1,0 +1,9 @@
+class change_sign
+{
+    public static void main(String[] args) 
+    {
+        int number = 15;
+        int x = ~ number + 1;
+            System.out.println(x);
+    }
+}

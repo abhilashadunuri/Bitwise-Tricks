@@ -1,0 +1,9 @@
+class compliments
+{
+    public static void main(String[] args) 
+    {
+        int a = 10;
+        System.out.println("1's Compliment of "+a+" is:"+ ~a);
+        System.out.println("2's Compliment of "+a+" is:"+ (~a+1));
+    }
+}
