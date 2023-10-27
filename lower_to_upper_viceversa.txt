@@ -1,0 +1,9 @@
+class HelloWorld {
+    public static void main(String[] args) 
+    {
+        char x=('D' | ' ');   // upper to lower
+        char y=('d' & '_');   // lower to upper
+        System.out.println(x);
+        System.out.println(y);
+    }
+}
